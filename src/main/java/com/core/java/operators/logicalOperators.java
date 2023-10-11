@@ -6,17 +6,16 @@ public class logicalOperators {
 
         int num1 = 10;
         int num2 = 20;
-        boolean result=num1<num2;
-        boolean result1=num1>num2;
-        boolean result2=num1<=num2;
-        boolean result3=num1>=num2;
-        boolean result4=num1==num2;
-        boolean result5=num1!=num2;
+        int num3=30;
+        int num4=10;
+        boolean result=num1<num2&&num3<num4;
+        boolean result1=num1>num2||num3<num4;
 
-        System.out.println("result1+"+result1);
-        System.out.println("result2+"+result2);
-        System.out.println("result3+"+result3);
-        System.out.println("result4"+result4);
-        System.out.println("result5"+result5);
+
+
+        System.out.println("result+"+result);// flase
+        System.out.println("result+"+result1);//flase
+        System.out.println("result3+"+!result);//true
+
     }
 }
