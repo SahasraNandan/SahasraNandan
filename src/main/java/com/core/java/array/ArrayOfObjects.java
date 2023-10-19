@@ -1,13 +1,14 @@
 package com.core.java.array;
 
-public class ArrayOfObjects {
-    static class student{
+
+    class student{
 
         int roll;
         String name;
         int Age;
 
     }
+public class ArrayOfObjects {
     public static void main(String[] args) {
 
         student s1= new student();

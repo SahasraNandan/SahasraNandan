@@ -1,9 +1,8 @@
 package com.core.java.classandobjects;
 
-public class ExampleOfClassAndObject {
 
 
-   static class calucator{
+    class calucator{
 
        public int add(int n1,int n2){
          int r=n1+n2;
@@ -11,6 +10,7 @@ public class ExampleOfClassAndObject {
        }
    }
 
+public class ExampleOfClassAndObject {
 
     public static void main(String arg[]){
 

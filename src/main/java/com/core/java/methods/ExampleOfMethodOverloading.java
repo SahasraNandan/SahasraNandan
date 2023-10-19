@@ -1,10 +1,10 @@
 package com.core.java.methods;
 
-public class ExampleOfMethodOverloading {
+
 
 
     //Same method name diffrent parameters  and diffrent datatype is called mathod overloding
-    static class calucator{
+    class calucator{
 
         public int add(int n1,int n2){
             int r=n1+n2;
@@ -22,7 +22,7 @@ public class ExampleOfMethodOverloading {
         }
     }
 
-
+public class ExampleOfMethodOverloading {
     public static void main(String arg[]){
 
 
