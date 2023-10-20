@@ -1,4 +1,4 @@
-package com.core.jave.inheritance;
+package com.core.java.inheritance;
 //Cal super class AdvanceCal subclass .AdvanceCal IS A Cal class
 public class AdvanceCal  extends Cal{
     public int mul(int a,int b){

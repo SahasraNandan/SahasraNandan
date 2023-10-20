@@ -1,4 +1,4 @@
-package com.core.jave.inheritance;
+package com.core.java.inheritance;
 
 public class Cal {
      public int add(int a,int b){
