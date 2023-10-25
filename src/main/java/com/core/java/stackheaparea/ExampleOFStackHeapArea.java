@@ -1,4 +1,4 @@
-package com.core.jave.stackheaparea;
+package com.core.java.stackheaparea;
 
 import com.core.java.methods.ExamplesOfMethods;
 
