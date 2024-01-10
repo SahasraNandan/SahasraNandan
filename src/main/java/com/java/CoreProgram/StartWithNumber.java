@@ -16,5 +16,13 @@ public class StartWithNumber {
         System.out.println(listValues);
 
 
+       int[] list={1,12,34,56,19};
+     List<String> slist =Arrays.stream(list).boxed().map(s->s+"")
+                .filter(x->x.startsWith("1"))
+                .collect(Collectors.toList());
+        System.out.println(listValues);
+
+
+
     }
 }
