@@ -54,6 +54,7 @@ in side java class.
     public static void main(String[] args) {
 
 
+
         //   JPB b =new JPB();
         // System.out.println(b.a);
         // Create an array of integers
