@@ -18,14 +18,14 @@ public class InfosysInterview {
 
         String s="Nandan@#$";
         String removedspecial="";
-        for(int i=0;i<s.length();i++) {
-            if (Character.isAlphabetic(s.charAt(i))){
+        /*for(int i=0;i<s.length();i++) {
+            if (Character. (s.charAt(i))){
                 removedspecial=removedspecial+s.charAt(i);
 
             }
 
 
-        }
+        }*/
         System.out.println("after remove special " + removedspecial);
 
         // check the string s2 is of s2 rotation

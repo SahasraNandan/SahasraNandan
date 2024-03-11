@@ -7,7 +7,9 @@ public class CapgeminiInterview {
     public static void main(String[] args) {
         //how find out in natural number in array missing number
 
-        int[] arr = new int[]{1, 2, 3, 4, 6, 7, 8, 9, 10};
+       // int[] arr = new int[]{1, 2, 3, 4, 6, 7, 8, 9, 10};
+
+        int[] arr = new int[]{9,6,5,1};
         int sum = (10 * 11) / 2;
         int acualsum = 0;
 
