@@ -14,8 +14,8 @@ public class NonRepate {
         String nonrepeat = Arrays.stream(input.split(""))
                 .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()))
                 .entrySet().stream()
-                .filter(x -> x.getValue() == 1)
-                .findFirst().get().getKey();
+                .filter(x -> x.getValue() == 1).findFirst().get().getKey();
+
         System.out.println(nonrepeat);
     }
 }
